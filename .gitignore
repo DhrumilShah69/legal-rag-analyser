@@ -1,0 +1,19 @@
+# Virtual environment - don't upload (too large)
+venv/
+
+# Environment variables - NEVER upload API keys
+.env
+
+# ChromaDB database files
+chroma_db/
+
+# Uploaded documents
+backend/uploaded_docs/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code settings
+.vscode/
